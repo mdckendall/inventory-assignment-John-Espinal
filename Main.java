@@ -52,7 +52,7 @@ class Main {
  
   Scanner key = new Scanner(System.in);
     do{
-      System.out.println("\nInventory System\n\nPress 1 to add an item.\nPress 2 to delete an item.\nPress 3 to update an item.\nPress 4 to show all the items.\nPress 5 to quit the program.");
+      System.out.println("Press 1 to add an item.\nPress 2 to delete an item.\nPress 3 to update an item.\nPress 4 to show all the items.\nPress 5 to quit the program.");
       
       choice = Integer.parseInt(key.nextLine());
      
