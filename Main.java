@@ -90,7 +90,7 @@ class Main {
               System.out.println("Enter the new name:");
               name = key.nextLine();
               InventItem.get(i).setName(name);
-              System.out.println("Enter the new value in dollars(whole number):");
+              System.out.println("Enter the new value in dollars (whole number):");
                value = Integer.parseInt(key.nextLine());
               InventItem.get(i).setValue(value);
              }
