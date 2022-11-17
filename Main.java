@@ -62,7 +62,7 @@ class Main {
           name = key.nextLine();
           System.out.println("Enter the serial number:");
           serialNum = key.nextLine();
-          System.out.println ("Enter the value in dollars (Whole number):");
+          System.out.println ("Enter the value in dollars (whole number):");
           value = Integer.parseInt(key.nextLine());
 
           Inventory item = new Inventory(name, serialNum, value);
