@@ -100,8 +100,8 @@ class Main {
           
         case 4:
            for (int i = 0 ; i < InventItem.size(); i++ ){
-               System.out.print(InventItem.get(i).name + ", ");
-               System.out.print(InventItem.get(i).serialNum + ", ");
+               System.out.print(InventItem.get(i).name + ",");
+               System.out.print(InventItem.get(i).serialNum + ",");
                System.out.println(InventItem.get(i).value);
            }
         break;
