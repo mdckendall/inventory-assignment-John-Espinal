@@ -83,7 +83,7 @@ class Main {
           break;
        
         case 3:
-           System.out.println("Enter the serial number of the item you would like to change:");
+           System.out.println("Enter the serial number of the item to change:");
               serial = key.nextLine();
           for (int i = 0 ; i < InventItem.size(); i++ ){
             if(InventItem.get(i).getSerialNum().contains(serial)){
